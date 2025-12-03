@@ -1,0 +1,493 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('Gilroy.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+body{
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Gilroy', sans-serif;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0px 20px;
+}
+
+#logo{
+    width: 200px;
+}
+
+#sectionHeader{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: 'Gilroy', sans-serif;
+    color: white;
+}
+
+#sectionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+#horizontalBar{
+    width: 100%;
+    height: 2px;
+    background-color: #5353fc;
+    border-radius: 20px;
+}
+
+#SectiuneIntro{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(0, 0, 0);
+}
+
+#produsIntro{
+    position: relative;
+    left: 450px;
+    top: 40px;
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 700px;
+    height: 750px;
+
+    animation: slideIn 2s ease-out forwards;
+}
+
+#sectionHeader{
+    font-size: 1.1rem;
+}
+
+#Container{
+    display: flex;
+    gap: 10px;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+#Sectiune2{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 250px;
+    height: 730px;
+    gap: 100px;
+    margin-top: 150px;
+}
+
+#textContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#gym{
+    width: 400px;
+    border-radius: 10px;
+}
+
+#textTitle{
+    color: white;
+    font-size: 4rem;
+    margin: 0px;
+}
+
+#textParagraf{
+    color: #b9b9b9;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+#imgContainer{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 450px 450px;
+    gap: 1rem;
+    grid-template-areas: 
+        "box1 box1"
+        "box2 box3";
+}
+
+#box1, #box2, #box3{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+#box2, #box3{
+    height: 55%;
+}
+
+#sc{
+    text-decoration-color: #5353fc;
+}
+
+#abonamenteButton{
+    border: none;
+    width: 250px;
+    height: 55px;
+    background-color: #5353fc;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Gilroy', sans-serif;
+}
+
+#reviews{
+    width: 200px;
+}
+
+#Sectiune3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    height: 1000px;
+}
+
+#plans{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+#easy, #medium, #hard{
+    padding: 20px;
+    width: 300px;
+    height: 600px;
+    border: 1px solid #5353fc;
+    border-radius: 15px;
+    background-color: black;
+}
+
+#medium{
+    transform: scale(1.1);
+    border: 3px solid #5353fc;
+}
+
+#textContainer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#plansText{
+    margin: 0px;
+    margin-bottom: 150px;
+}
+
+#plansTitle{
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+#box{
+    position: absolute;
+    padding: 20px;
+    width: 300px;
+    height: 40px;
+    background-color: #5353fc;
+    transform: scale(1.1);
+    border: 3px solid #5353fc;
+    top: 2267px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+h4{
+    margin: 0px;
+}
+
+#alege{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: transform 0.3s ease;
+}
+
+#alege2{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #585858;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+
+    transition: transform 0.3s ease;
+}
+
+#alege:hover, #alege2:hover{
+    transform: scale(0.95);
+}
+
+#plansP{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+#priceP{
+    font-size: 1.7rem;
+}
+
+#beneficiiP{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+#imgP{
+    width: 15px;
+    height: 15px;
+}
+
+#beneficiiParagraf{
+    margin: 0px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    margin-top: 150px;
+    background-color: white;
+    gap: 100px;
+}
+
+#footerSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+#textFooter{
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+#footerLogo{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#footerText{
+    color: black;
+}
+
+#footerSectionCompany{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+#footerParagraf{
+    color: black;
+    width: 450px;
+}
+
+#footerSection2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerPart1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+
+#footerMedia{
+    width: 30px;
+    height: 30px;
+}
+
+#footerSMContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#text3{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+/*categorie prouse*/
+
+#produs{
+    position: relative;
+    width: 600px;
+    height: 430px;
+    left: 700px;
+    top: 200px;
+
+    animation: slideIn 2s ease-out forwards;
+    transition: transform 0.3s ease;
+}
+
+#textFood1{
+    position: absolute;
+    cursor: pointer;
+    top: 300px;
+    left: 350px;
+
+    animation: slideIn 1s ease-out forwards;
+    transition: transform 0.3s ease;
+}
+
+#textFood2{
+    position: absolute;
+    cursor: pointer;
+    top: 300px;
+    left: 1300px;
+    color: #5353fc;
+    
+    animation: slideIn 1s ease-out forwards;
+    transition: transform 0.3s ease;
+}
+
+#textFood3{
+    position: absolute;
+    cursor: pointer;
+    top: 380px;
+    left: 1300px;
+
+    animation: slideIn 1s ease-out forwards;
+    transition: transform 0.3s ease;
+}
+
+#textFood4{
+    position: absolute;
+    cursor: pointer;
+    top: 550px;
+    left: 1310px;
+    font-size: 1.5rem;
+
+    animation: slideIn 1s ease-out forwards;
+    transition: transform 0.3s ease;
+}
+
+#foodButton{
+    border: none;
+    width: 200px;
+    height: 40px;
+    background-color: #5353fc;
+    position: absolute;
+    top: 610px;
+    left: 1310px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Gilroy', sans-serif;
+
+    transition: transform 0.3s ease;
+}
+
+#produs2{
+    position: relative;
+    width: 500px;
+    height: 600px;
+    left: 650px;
+    top: 100px;
+    transform: rotate(90deg);
+
+    animation: slideIn 2s ease-out forwards;
+}
+
+#textBaton1{
+    position: absolute;
+    cursor: pointer;
+    top: 250px;
+    left: 350px;
+
+    animation: slideIn 1s ease-out forwards;
+    transition: transform 0.3s ease;
+}
+
+#textBaton2{
+    position: absolute;
+    cursor: pointer;
+    top: 350px;
+    left: 560px;
+    color: #585858;
+    
+    animation: slideIn 1s ease-out forwards;
+    transition: transform 0.3s ease;
+}
+
+#textBaton3{
+    position: absolute;
+    cursor: pointer;
+    top: 500px;
+    left: 1050px;
+
+    animation: slideIn 1s ease-out forwards;
+    transition: transform 0.3s ease;
+}
+
+#BatonButton{
+    border: none;
+    width: 200px;
+    height: 40px;
+    background-color: #5353fc;
+    position: absolute;
+    top: 680px;
+    left: 1060px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Gilroy', sans-serif;
+
+    transition: transform 0.3s ease;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

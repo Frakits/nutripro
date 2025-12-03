@@ -1,0 +1,33 @@
+#sectiuneMancare{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#secImg, #secImg3, #secImg2{
+    width: 40em;
+}
+
+#secParagraf{
+    width: 980px;
+    margin: 20px 0px;
+}
+
+#secText{
+    margin: 0px;
+}
+
+#exploreaza{
+    border: none;
+    width: 200px;
+    height: 40px;
+    background-color: #5353fc;
+    position: absolute;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Gilroy', sans-serif;
+
+    transition: transform 0.3s ease;
+}
