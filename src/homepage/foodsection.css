@@ -6,6 +6,18 @@
     margin-top: 50px;
 }
 
+#SectionStartContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#textStart1{
+    font-size: 3em;
+}
+
 #secImg, #secImg3, #secImg2{
     width: 40em;
 }
@@ -30,12 +42,13 @@
     gap: 30px;
 }
 
-#box1{
+#boxSpec{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 150px;
     height: 50px;
+    border-radius: 10px;
     background-color: #756a5a;
 }
 
@@ -95,8 +108,7 @@
     border: none;
     width: 200px;
     height: 40px;
-    background: #5CE1E6;
-    background: linear-gradient(90deg, rgba(92, 225, 230, 1) 0%, rgba(140, 82, 255, 1) 64%);
+    background-color: #756a5a;
     position: absolute;
     border-radius: 10px;
     color: white;
