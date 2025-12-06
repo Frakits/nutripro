@@ -1,3 +1,3 @@
 function goToExplore(){
-    window.location.href = "../../index.html";
+    window.location.href = "./dist/explore/explore.html";
 }
