@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../assets/Gilroy.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+body{
+    background-color: black;
+    font-family: 'Gilroy', sans-serif;
+    margin: 0px;
+}
+
+#mancareSectiune{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 300px;
+}
+
+#allSection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+
+#textSectiune{
+    color: white;
+    font-size: 4em;
+}
+
+#pretContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+#reducere{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: #fc2929;
+}
+
+#reducereText{
+    font-size: 1.5em;
+    color: white;
+}
+
+#pretVechi{
+    text-decoration: line-through;
+    color: #fc2929;
+    font-size: 2em;
+    margin: 0px;
+}
+
+#pretNou{
+    margin: 0px;
+    font-size: 2em;
+    color: rgb(54, 255, 54);
+    padding: 0px 35px;
+}
+
+#pContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#produsImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#prop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+#proteine, #calorii{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(65, 49, 35);
+    border-radius: 15px;
+}
+
+h3{
+    color: white;
+}
+
+#mancareImg{
+    width: 15em;
+}
+
+#titluProdus{
+    color: white;
+}
+
+#adaugareCos{
+    border: none;
+    width: 200px;
+    height: 30px;
+    background: #5CE1E6;
+    background: linear-gradient(90deg, rgba(92, 225, 230, 1) 0%, rgba(140, 82, 255, 1) 64%);
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Gilroy', sans-serif;
+}
