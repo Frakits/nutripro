@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../assets/Gilroy.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+body{
+    margin: 0px;
+    background-color: black;
+    font-family: 'Gilroy', sans-serif;
+    color: white;
+}
