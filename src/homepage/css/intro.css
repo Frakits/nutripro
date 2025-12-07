@@ -145,7 +145,7 @@
 
 @media(max-width: 450px){
     #introImg{
-        width: 13em;
+        width: 16em;
         margin-left: 0px;
     }
 
@@ -157,12 +157,12 @@
         font-size: 1rem;
         width: 100px;
         height: 35px;
-        margin-top: 10px;
-        margin-left: -20px;
+        margin-top: 50px;
+        margin-left: -40px;
     }
 
     #dreapta{
-        margin-top: 100px;
+        margin-top: 110px;
     }
 
     #stanga{
@@ -170,19 +170,19 @@
     }
 
     #textIntro1{
-        margin-left: -70px;
+        margin-left: -90px;
     }
 
     #textIntro2{
-        margin-left: -60px;
+        margin-left: -90px;
     }
 
     #textIntro3{
-        margin-left: -20px;
+        margin-left: -40px;
     }
 
     #textIntro4{
-        margin-left: -10px;
+        margin-left: -20px;
     }
 
     #textIntro5{
